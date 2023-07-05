@@ -1274,3 +1274,7 @@ align-items: center;
    font-size: 16px;
    line-height: 1.87;
 }
+
+.contact-form-checkbox-wrapper{
+margin-left: 14px;
+}
