@@ -244,8 +244,8 @@
        </div>
        <div class="submit-footer">
         <form >
-          <label  class="footer-label">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</label>
-<input type="email" placeholder="E-Mail" class="footter-in">
+          <label for="email-footer" class="footer-label">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</label>
+<input type="email" id="email-footer" placeholder="E-Mail" class="footter-in">
 <button type="submit" class="submit-footer-btn">
   <span class="footer-btn-sub">Підписатися </span></button>
        
@@ -264,10 +264,10 @@
       <p class="form-p">Залиште свої дані, ми вам передзвонимо</p>
             <form class="contanct-form">
           
-        <label  class="contact-form-filed">
+        <label for="user-name" class="contact-form-filed">
           
           <span class="label-form-style">Ім'я</span><span class="my-wripper-div"> 
-          <input name="user_name" type="text" class="contact-form-input" required>
+          <input name="user_name" id="user-name" type="text" class="contact-form-input" required>
         <svg class="my-svg-wrapper" >
           <use href="./img/sprite.svg#person-black">
           </use>
@@ -275,27 +275,27 @@
         </label>
 
 
-        <label   class="contact-form-filed">
+        <label for="user-phone"  class="contact-form-filed">
          <span class="label-form-style">Телефон</span> <span class="my-wripper-div">
-          <input type="tel" name="user-phone" class="contact-form-input" required>
+          <input type="tel" id="user-phone" name="user-phone" class="contact-form-input" required>
         <svg class="my-svg-wrapper">
           <use href="./img/sprite.svg#phone-black"></use>
         </svg></span>
         </label >
 
 
-        <label  class="contact-form-filed">
+        <label for="user_mail"  class="contact-form-filed">
           <span class="label-form-style">Пошта</span><span class="my-wripper-div">
-          <input name="user_mail" type="email"  class="contact-form-input" required>
+          <input name="user_mail" id="user_mail" type="email"  class="contact-form-input" required>
         <svg class="my-svg-wrapper">
           <use href="./img/sprite.svg#email-black"></use>
         </svg></span>
         </label>
 
 
-        <label  class="contact-form-filed">
+        <label for="user-message" class="contact-form-filed">
           <span class="label-form-style">Коментар</span>
-          <textarea name="user_message"   placeholder="Введіть текст" class="contact-form-message"></textarea>
+          <textarea name="user_message" id="user-message"  placeholder="Введіть текст" class="contact-form-message"></textarea>
         </label>
         
           <div class="contact-form-checkbox-wrapper">

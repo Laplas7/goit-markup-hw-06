@@ -1184,6 +1184,7 @@ transition: box-shadow 100ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250m
 
 .my-check-link{
   color: var(--decoration-color);
+  text-decoration: none;
 }
 
 
